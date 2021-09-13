@@ -58,6 +58,41 @@ nav button#join{
     margin-right: 20px;
 }
 
-#hire{
-    margin-left: auto;
+/* Hero section style */
+section#hero{
+    display: flex;
+    padding: 20px 5%;
+    background-color: #f4f6fc;
 }
+
+section#hero > div{
+    flex:1;
+}
+
+section#hero .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section#hero .details h1{
+    color: black ;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+section#hero .details button{
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 10px;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+section#hero > div img{
+    width: 100%;
+}
+
