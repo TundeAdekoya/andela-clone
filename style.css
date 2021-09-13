@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 2%;
+
+}
+
+nav #menu-btn{
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    font-size: 24px;
+    color: blue;
+}
+
+nav #logo{
+    margin:0px 20px;
+}
+
+nav #logo img{
+    width: 125px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#555
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav button:is(#hire, #join){
+    padding: 16px 30px;
+    margin:5px 10px;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button#hire{
+    margin-left: auto;
+    background-color: blue;
+    color: white;
+}
+
+nav button#join{
+    background-color: #ffc400;
+    margin-right: 20px;
+}
+
+#hire{
+    margin-left: auto;
+}
